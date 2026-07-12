@@ -12,9 +12,9 @@ endpoints:
       titleModel: "meta-llama/llama-3-70b-instruct"
       dropParams: ["stop"]
       modelDisplayLabel: "OpenRouter"
-      mcpServers:
+mcpServers:
   mnemoverse:
     command: npx
     args: ["-y", "@mnemoverse/mcp-memory-server"]
     env:
-      MNEMOVERSE_API_KEY: "mk_live_ccdb6d980906c6d5021364355dc1e2a7"
+      MNEMOVERSE_API_KEY: ${MNEMOVERSE_API_KEY}
