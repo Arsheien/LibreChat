@@ -12,6 +12,7 @@ endpoints:
       titleModel: "meta-llama/llama-3-70b-instruct"
       dropParams: ["stop"]
       modelDisplayLabel: "OpenRouter"
+
 mcpServers:
   mnemoverse:
     command: npx
